@@ -11,5 +11,8 @@
 <li> -> lista
 <a href="link">"nome no site"</a> -> link
 
+
+<style>
+
 <img src="Link da imagem"  alt= "Descriçao da ilustração"/>
 imagens coloque em .svg
