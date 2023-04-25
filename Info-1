@@ -1,0 +1,15 @@
+! -> modelo padrão
+
+<head> -> "cabeça do site"
+<body> -> "corpo do site"
+<footer> -> "info da pagina"
+<p> -> "paragrafo"           
+<h1> a <h6> -> "h1 é o maior , h6 menor"
+<section> -> "setores do site"
+<ul> -> "lista nao organizada"
+<ol> -> "lista organizada"
+<li> -> lista
+<a href="link">"nome no site"</a> -> link
+
+<img src="Link da imagem"  alt= "Descriçao da ilustração"/>
+imagens coloque em .svg
