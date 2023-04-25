@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Aula 2</title>
+</head>
+<body>
+    <style>
+        .titulo{
+            color:brown;
+        }
+        .texto{
+            font-size:xx-large;
+        }
+        .img{
+            width: 20%;
+        
+        }
+        .chuteira{
+            margin-right: 20%;
+            margin-left:  10%;
+        }
+    </style>
+    <h2 class="titulo">TITULO</h2>
+    
+    <P class="texto">Adidas</P>
+
+        
+    <ul>
+        
+        <li><a href="https://www.adidas.com.br/chuteiras">Adidas</a></li>
+    
+    </ul>
+
+    <img class="img" src="Fotos/adidas_318-565831.avif" alt="Adidas" />
+
+    <ul>
+
+        <li class="chuteira"><a href="https://www.adidas.com.br/chuteira-x-speedportal.3-campo/GZ5077.html">Chuteira cria</a></li>
+    
+    </ul>
+    
+    
+
+</body>
+</html>
