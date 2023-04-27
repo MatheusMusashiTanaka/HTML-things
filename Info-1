@@ -12,6 +12,12 @@
 <a href="link">"nome no site"</a> -> link
 backgoroundcolor
 <link type="text/css" rel"stylesheet" href"tutstown.css> ->
+<div> -> "Divisão"
+display -> display flexbox e grid 
+<magin> -> espaçar
+<padding> ->esticar
+display grid -> 2 dimensoes
+flexbox-> row and collum , justify-content
 
 <style>
 
