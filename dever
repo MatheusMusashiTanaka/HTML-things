@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <link type="text/css" rel="stylesheet" href="bunitim.css">
+</head>
+<body>
+
+    <header>
+
+        <h1 class="titulo"> Galeria dos sapos</h1>
+
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a class="links_imagens" href="#imagem 1"> primeira imagem</a>
+                </li>
+                
+                <li>
+
+                </li>
+                
+                <li>
+
+                </li>
+                
+                <li>
+
+                </li>
+            </ul>
+        </nav>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section class="container">
+        
+            <div> <a id="imagem 1" class="link" href="https://pt.wikipedia.org/wiki/Sapo" target="_blank"><img class="imagem" src="Fotos/sapo-e-anfibio.jpg" alt="Sapão" /></a></div>
+        
+            <div> <a id="imagem 2" class="link" href="https://pt.wikipedia.org/wiki/Pyxicephalidae" target="_blank"><img class="imagem" src="Fotos/sapoolhudo.png" alt="sapao 2" /></a></div>
+        
+            <div> <a id="imagem 3" class="link" href="https://pt.wikipedia.org/wiki/Rhacophoridae" target="_blank"><img class="imagem" src="Fotos/sapinho 3 .png" alt="sapao 3" /></a></div>
+        
+            <div> <a id="imagem 4" class="link" href="https://pt.wikipedia.org/wiki/Pelodryadidae" target="_blank"><img class="imagem" src="Fotos/sapin.png" alt="sapão 4"/></a></div>
+        
+        </section>
+    
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
+_____________________________________________________________________--
+body{
+    background-color: #197442;
+}
+.titulo{
+    text-align: center;
+    color:rgb(74, 241, 59);
+    font-size: 3cm;    
+}
+.texto{
+    font-size: 0.56cm;
+    color: rgb(22, 236, 129);
+    text-align: center;
+}
+.imagem{
+    width: 500px;
+    height: 500px;
+}
+.link{
+    color:rgb(22, 236, 129)
+}
+.container{
+    height: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin-top: 120px;
+    width: 500px;
+    height: 500px;
+    color: blueviolet;
+    
+}
+.links_imagens{
+    font-size: xx-large;
+}
