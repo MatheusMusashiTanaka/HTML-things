@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muchas coixas</title>
+</head>
+<body>
+  
+    <form action="server.php" method="GET">
+       <fieldset></fieldset>
+       
+       
+        <!--
+        nome:<input type="text" name="" id="">
+        <input type="button" value="ok">
+        <input type="datetime-local">
+        <input type="range">
+        <br>
+        <br>
+        <input type="radio" name="cor" value="vermelho"> vrimelho<br>  
+        <input type="radio" name="cor" value="brue"> abrue  <br> <hr>
+        <input type="radio" name="sex" value="Masculino"> homi<br>
+        <input type="radio" name="sex" value="Feminino"> Muie<br>
+        <input type="radio" name="sex" value="Masculino"> Utros
+        <input type="password">
+        <input type="reset" value="resete">
+        <input type="submit">
+        <input type="search">
+        <br><br>
+        
+        hm<br><textarea name="" id="" cols="50" rows="2">
+        -->
+            
+            
+            <select name="eu" id="eu">
+                <option value="escolha 1">br</option>
+                <option value="escolha 2">us</option>
+            </select>
+        <input type="file">
+        
+        <br><br><br>
+       
+        navegador:<input type="textbox" list="navegadores">
+            <datalist id="navegadores">
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Opera"></option>
+            </datalist>
+        </form>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!--  
+    <video controls="" height="500">
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+    </video>
+    video
+    -->
+
+
+    <!-- <audio controls="">
+        <source src="movie.ogg" type="audio/ogg">
+        hmmm bear
+    </audio>
+    audiozinho
+    -->
+
+    
+    <!--
+    <object data="giphy.gif"></object>
+    gifzão de cria
+    -->
+
+
+</body>
+</html>
