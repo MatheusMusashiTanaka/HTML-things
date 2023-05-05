@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link type="text/css" rel="stylesheet" href="bunitim.css">
+</head>
+<body>
+
+    <header>
+
+        <h1 class="titulo"> Galeria dos Sapos</h1>
+
+    </header>
+
+    <main>
+        <nav>
+            <h2>Esta é uma galeria de sapos, clique em um tipo de sapo para ver informaçoes do sapo.</h2>
+            <ul>
+                <li>
+                    <a class="links_imagens" href="#imagem 1"> Centrolenídeos</a>
+                </li>
+                <br>
+                <li>
+                    <a class="links_imagens" href="#imagem 2"> Dendrobatidae</a>
+                </li>
+                <br>
+                <li>
+                    <a class="links_imagens" href="#imagem 3"> Craugastoridae</a>
+                </li>
+                <br>
+                <li>
+                    <a class="links_imagens" href="#imagem 4"> Rhacophoridae</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <section class="container">
+        
+            <div class="image"> <a id="imagem 1" class="link" href="https://pt.wikipedia.org/wiki/Centrolen%C3%ADdeos" target="_blank"><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Hyalinobatrachium_yaku_adult_male%2C_paratype%2C_QCAZ_55628.jpg" alt="Sapão" /></a>
+                <p class="info"><b> Uma particularidade dos membros deste grupo é o facto de os seus corpos serem translúcidos: os ossos, músculos e vísceras podem ser vislumbrados. À medida que os centrolenídeos adormecem durante o dia, eles retiram quase 90% de seus glóbulos vermelhos da circulação.</b> </p>
+            </div>
+
+            <div class="image"> <a id="imagem 2" class="link" href="https://pt.wikipedia.org/wiki/Dendrobatidae" target="_blank"><img class="imagem" src="https://th.bing.com/th/id/OIP.7O5cRoCER4HCsrK7Exlu_wHaD4?pid=ImgDet&rs=1" alt="Dendrobatidae" /></a></div>
+        
+            <div class="div"> <a id="imagem 3" class="link" href="https://pt.wikipedia.org/wiki/Craugastoridae" target="_blank"><img class="imagem" src="https://alchetron.com/cdn/craugastor-longirostris-5d4fa703-a856-4318-9d8f-7d76187eaac-resize-750.jpg" alt="sapao 3" /></a></div>
+        
+            <div class="div"> <a id="imagem 4" class="link" href="https://pt.wikipedia.org/wiki/Pelodryadidae" target="_blank"><img class="imagem" src="https://th.bing.com/th/id/R.7062b714bac93c247c0595f93b4683b2?rik=zvKJKT%2f40Oi9xw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-UXTvsDt5Gj8%2fTvnnDcuC1iI%2fAAAAAAAAKG4%2fXvfsKhzV6aQ%2fw1200-h630-p-k-no-nu%2fRhacophorus_penanorum02.JPG&ehk=%2b6PB5Tzp3nnlXJQtxj4KLn8Yc4gj7TeOoXHOcQDoQW4%3d&risl=&pid=ImgRaw&r=0" alt="sapão 4"/></a></div>
+        
+        </section>
+    
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
+
+_____________________________________
+header{
+    background-color: #55b67d;
+}
+.titulo{
+    text-align: center;
+    color:rgb(31, 83, 36);
+    font-size: 3cm;    
+}
+.texto{
+    font-size: 0.56cm;
+    color: rgb(22, 236, 129);
+    text-align: center;
+}
+.imagem{
+    width: 150%;
+    height: 150%;
+}
+.link{
+    color:rgb(22, 236, 129);
+    align-items: center;
+}
+.container{
+    height: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190%;
+    margin-right: 8%;
+}
+
+div{
+    margin-top: 95%;
+    width: 500px;
+    height: 500px;
+    
+}
+.links_imagens{
+    font-size: xx-large;
+}
+body{
+    background-color: rgb(220, 245, 222);
+}
+
+.info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-right: -50%;
+}
