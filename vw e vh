@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Righteous&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff6bd;
+}
+
+.retangulo{
+    background-color: #242222;
+    height: 16vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.botao{
+    border-radius: 40px;
+    background-color: #ffc701;
+    border: none;            /* retira a borda padrao */
+    color: blanchedalmond; 
+    text-align: center;
+    font-size: 5vh;
+    padding: 3vh;           /* espaço entre o elemento e sua borda*/
+    width: 13vw;            /* largu */   
+    transition: all 0.5s;    /* tempo transição*/
+    cursor: pointer;         /* cursor muda */
+    margin: 0.2vh;             /* margem do botao*/
+    top: 1vh;                 /* posição vertical do botao*/
+    right: 6vw;               /* posiçao horizontal do botao*/
+    z-index: 1;                  /* camada */
+    position: absolute;      /* tipo de posição (independe de outros elementos */
+}
+
+.botao span{
+
+    cursor: pointer;
+    display: inline-block;    /* bloco retangular */
+    position: relative;      /* posição depende de outros elementos */
+    transition: 0.5s;
+
+}
+
+.botao:hover span{
+    font-size: 5.8vh;         /*tamanho da fonte pos animação (curor em cima)*/
+    
+}
+
+
+.logo{
+    cursor: pointer;
+    height: 15vh;
+    width: 7vw;
+    position: absolute;
+    z-index: 1;
+    left: 6vh;
+    transform: rotate(330deg);
+}
+
+.logo:hover {
+    animation: tremer 0.5s ;
+}
+
+@keyframes tremer {
+    0% { transform: rotate(330deg);}
+    30% { transform: rotate(335deg);}
+    60% { transform: rotate(325deg);}
+    80% { transform: rotate(335deg);}
+    100% { transform: rotate(325deg);}
+}
+
+.imag{
+    height: 335px;
+    transform: rotate(325deg);
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    margin: 0;
+    padding: 0; 
+}
+
+.retangulo_A{
+    background-color:#ffc701;
+    height: 40vh;
+    width: 30vw;
+    padding: 1vh;
+    right: 18vw;
+    top: 24vh;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.retangulo_A li p{
+    display: flex;
+    margin: 0; /* retira a margem padrao do texto */
+    width: 100%;
+    font-size: 8vh;
+    font-weight:900;
+
+}
+
+.retangulo_A p{
+    display: flex;
+    margin: 1vh;
+    width: 100%;
+    font-size: 4vh;
+}
+
+.retangulo_B{
+    background-color:#ffc701;
+    height: 11vh;
+    width: 45vw;
+    padding: 1vh;
+    right: 10.5vw;
+    top: 75vh;
+    position: absolute;
+    border-radius: 55px;
+}
+
+.retangulo_B p{
+    margin: 1.5vh;
+    text-align: center;
+}
+
+.cadastro{
+    cursor: pointer;
+}
+
+.botoes_sup{
+    background-color: transparent;
+    border-color: #d4a600;
+    border-radius: 30px;
+    border-style: solid;
+    height: 9vh;
+    width: 10vw;
+    z-index: 1;
+    position: absolute;
+    top: 3vh;
+    left: 20vw;
+}
+
+.botoes_sup p{
+    margin: 2vh;
+    text-align: center;
+    color: beige;
+    font-size: 27px;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+}
+
+.texto{
+    font-family: "Open Sans";
+}
+
+strong{
+    font-family: 'Righteous', cursive;
+}
